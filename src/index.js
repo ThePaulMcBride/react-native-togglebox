@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 import { Text, View, Image, TouchableWithoutFeedback, Animated} from 'react-native'
 import Icon from 'react-native-vector-icons/MaterialIcons'
+import stylePropType from 'react-style-proptype';
 import styles from './styles.js'
 
 class ToggleBox extends Component {
@@ -93,7 +94,7 @@ ToggleBox.propTypes = {
   children: PropTypes.element.isRequired,
   expanded: PropTypes.bool,
   label: PropTypes.string.isRequired,
-  style: PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
+  style: stylePropType,
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 }
 
