@@ -8,7 +8,7 @@
   "author": "Paul McBride <hello@paulmcbride.net> (https://paulmcbride.net)",
   "license": "MIT",
   "main": "./src/index.js",
-  "description": "React Native Component for displaying content in an animated acordian style container. Based on https://github.com/jvaclavik/react-native-show-hide-toggle-box",
+  "description": "React Native Component for displaying content in an animated accordian style container. Based on https://github.com/jvaclavik/react-native-show-hide-toggle-box",
   "keywords": [
     "react-component",
     "react-native",
