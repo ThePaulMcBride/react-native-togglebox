@@ -1,4 +1,4 @@
-# react-native-show-hide-toggle-box
+# react-native-togglebox
 React Native Toggle Box for showing/hiding content with sliding effect. Should looks like classical [slideToggle()](http://api.jquery.com/slidetoggle/) from jQuery.
 
 * The `ToggleBox` scene should be `ScrollView` to allow the page to grow as the toggle opens
