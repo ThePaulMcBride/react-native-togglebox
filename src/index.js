@@ -93,7 +93,7 @@ ToggleBox.propTypes = {
   arrowUpType: PropTypes.string,
   children: PropTypes.element.isRequired,
   expanded: PropTypes.bool,
-  label: PropTypes.string.isRequired,
+  label: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
   style: stylePropType,
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 }
